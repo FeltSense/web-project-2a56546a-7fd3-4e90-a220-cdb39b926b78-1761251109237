@@ -20,3 +20,5 @@ export function AnalyticsProvider({ children }: { children: React.ReactNode }) {
   
   return <>{children}</>
 }
+
+export default function Component() { return <div>Content</div> }
